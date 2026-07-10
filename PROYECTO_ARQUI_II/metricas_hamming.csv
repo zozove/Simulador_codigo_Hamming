@@ -1,0 +1,3 @@
+hamming_n,hamming_k,modo_ruido,ber_objetivo,errores_inyectados,errores_detectados,errores_corregidos,errores_fatales,integridad_ok,tamanio_bytes,bloques_totales
+31,26,5 errores totales,0.00000000,5,4,4,0,0,74,23
+15,11,2 errores/bloque,0.00000000,12,6,6,0,0,7,6
