@@ -97,11 +97,11 @@ public class AnalizadorMetricas {
         double fatalPct = detected > 0 ? (double) fatal / detected * 100 : 0;
 
         StringBuilder sb = new StringBuilder();
-        String sep = "=" .repeat(72);
+        String sep = "-" .repeat(72);
         String sub = "-" .repeat(72);
 
         sb.append(sep).append("\n");
-        sb.append("  REPORTE DE MÉTRICAS — SISTEMA HAMMING\n");
+        sb.append("  REPORTE DE MÉTRICAS - SISTEMA HAMMING\n");
         sb.append(sep).append("\n\n");
 
         sb.append("  ── CONFIGURACIÓN DEL SISTEMA ──\n");
