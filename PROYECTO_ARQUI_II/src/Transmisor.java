@@ -1,6 +1,6 @@
 /*
   MÓDULO TRANSMISOR — CARGA DE DATOS Y CODIFICACIÓN HAMMING
- 
+ -----------------------------------------------------------------
   Arquitectura de Computadores — Canal de Comunicación Digital
  
   Responsabilidades:
@@ -88,7 +88,7 @@ public class Transmisor {
                 b = (byte) ((b << 1) | bits[i + j]);     //mueve los bits actuales una posición a la izquierda.
             }                                           //agrega el nuevo bit al final.
            
-            result[i / 8] = b; //Agrega el bye reconstrudo al final
+            result[i / 8] = b; //Agrega el byte reconstrudo al final
         }
         return result;
     }
