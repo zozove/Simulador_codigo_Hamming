@@ -4,13 +4,13 @@
   Arquitectura de Computadores — Canal de Comunicación Digital
  
   Menú interactivo paso a paso:
-    Paso 1 Configuración del código Hamming
-    Paso 2 Carga de datos (texto o archivo)
-    Paso 3 Codificación Hamming
-    Paso 4 Configuración del canal con ruido
-    Paso 5 Decodificación y corrección
-    Paso 6 Reporte de métricas
-    Paso 7 Exportación de resultados (archivo recuperado, CSV)
+    PASO 1 Configuración del código Hamming
+    PASO 2 Carga de datos (texto o archivo)
+    PASO 3 Codificación Hamming
+    PASO 4 Configuración del canal con ruido
+    PASO 5 Decodificación y corrección
+    PASO 6 Reporte de métricas
+    PASO 7 Exportación de resultados (archivo recuperado, CSV)
  */
 import java.io.IOException;
 import java.util.List;
