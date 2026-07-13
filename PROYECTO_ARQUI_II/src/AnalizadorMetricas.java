@@ -68,7 +68,7 @@ public class AnalizadorMetricas {
     }
 
     /*
-     Genera un reporte completo y formateado para consola.
+     Genera un reporte completo y formateado para la consola.
         Incluye:
         - Configuración del sistema Hamming
         - Estadísticas de transmisión
